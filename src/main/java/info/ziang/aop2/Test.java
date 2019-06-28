@@ -3,6 +3,9 @@ package info.ziang.aop2;
 import info.ziang.aop.ITalk;
 import info.ziang.aop.PeopleTalk;
 
+/**
+ * 测试类
+ */
 public class Test {
     public  static void main(String[] args){
 
