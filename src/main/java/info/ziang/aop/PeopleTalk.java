@@ -16,7 +16,7 @@ public class PeopleTalk implements ITalk {
     }
 
     public void talk(String msg) {
-        System.out.println("你好，我是" + name + "，我的年龄是" + age + "。");
+        System.out.println("你好，我是" + name + "，我的年龄是" + age + "。" + msg);
     }
 
     public String getName() {

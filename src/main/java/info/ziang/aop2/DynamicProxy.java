@@ -41,8 +41,8 @@ public class DynamicProxy implements InvocationHandler {
         Object result =null;
 
         System.out.println("切面之前执行。");
-        result = method.invoke(args);
+        result = method.invoke(target, args);
         System.out.println("切面之后执行。");
-        return null;
+        return result;
     }
 }
